@@ -7,3 +7,5 @@ ROS版本 : melodic
 $nano .bashrc
 $export catkin_ws/devel/setup.bash
 $source .bashrc 
+$export TURTLEBOT3_MODEL=waffle_pi
+要執行ros navigation前需要先安裝缺少的套件:map_server, move_base, global_planner, teb_local_planner等
