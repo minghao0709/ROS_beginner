@@ -13,3 +13,12 @@ $source .bashrc <br>
 $export TURTLEBOT3_MODEL=waffle_pi<br>
 '''<br>
 要執行ros navigation前需要先安裝缺少的套件:map_server, move_base, global_planner, teb_local_planner等<br>
+
+
+<h2>建立工作區</h2>
+mkdir -p mhh_ws/src
+cd mhh_ws
+catkin_make
+cd
+nano .bashrc
+
